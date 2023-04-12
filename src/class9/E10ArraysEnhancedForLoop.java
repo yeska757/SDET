@@ -1,10 +1,10 @@
 package class9;
 
-public class E10Arrays {
+public class E10ArraysEnhancedForLoop {
     public static void main(String[] args) {
 
         int [] numbers = {45,34,254,24235,234,234,};
-        //iter   ---> shortcut for inhanced for loop
+        //iter   ---> shortcut for enhanced for loop
         for (int n : numbers) {
             System.out.print(n + " ");
         }
@@ -12,6 +12,7 @@ public class E10Arrays {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i]);
         }
+
 
 
 

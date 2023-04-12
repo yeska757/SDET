@@ -1,6 +1,6 @@
 package class9;
 
-public class E9Arrays {
+public class E9ArraysEnhancedForLoop {
     public static void main(String[] args) {
 
         //Enhanced for loop
