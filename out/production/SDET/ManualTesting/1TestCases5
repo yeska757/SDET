@@ -1,0 +1,47 @@
+class 3
+Test Cases HW
+Write 5 test cases/scenarios in cucumber/gherkin language
+
+Test Case 1:
+VANS test case : Login Functionality
+Given user is able to launch vans.com application on chrome browser
+When user enters valid username and password
+And user clicks on SIGN IN button
+Then user is navigated to home page
+
+Test Case 2:
+Jira test case : Log Out Functionality
+Given user is logged in to Jira application on Chrome browser
+When user click on User Profile
+And drop down menu opens
+And user clicks on Log Out button
+Then user is navigated to login page
+
+Test Case 3:
+Amazon test case: Cart Functionality
+Given user is able to launch amazon.com application on Chrome browser
+When user clicks on wanted item
+And user clicks Add to Cart button
+Then user is able to see the count number on the cart icon increase by the number of added items
+
+Test Case 4:
+CarsForSale test case: Add Inventory Functionality
+Given user is logged in to carsforsale.com application on Chrome browser
+When user clicks on Add Inventory icon in the top right corner
+And user is navigated to Add Inventory page
+And user chooses Standard in What Are You Selling menu
+And user enters valid VIN number in Decode VIN
+And user clicks Decode
+And correct vehicle information is populated
+And user clicks continue
+And user clicks save at the bottom of the page
+Then user is navigated to Inventory Page and can see saved vehicle
+
+Test Case 5
+Google Sheets case : Accessibility
+When user is logged in to gmail account
+When user clicks on Google Apps menu
+And user clicks on Sheets
+And user selects New Blank Spreadsheet
+Then user is navigated to a blank new spreadsheet
+
