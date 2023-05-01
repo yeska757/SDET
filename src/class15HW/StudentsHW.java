@@ -11,7 +11,7 @@ public class StudentsHW {
 
     String name;
     String iD;
-    String numberOfStudents;
+    static String numberOfStudents;
 
     public static void main(String[] args) {
         int numberOfStudents = 0;
