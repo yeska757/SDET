@@ -1,0 +1,6 @@
+package myPractice;
+
+class Main{
+
+
+}
