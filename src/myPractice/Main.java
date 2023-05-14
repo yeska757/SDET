@@ -1,6 +1,5 @@
 package myPractice;
 
-class Main{
+class Main  {
 
-
-}
+    }
