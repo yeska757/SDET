@@ -2,5 +2,4 @@ package myPractice;
 
 class Main {
 
-
 }

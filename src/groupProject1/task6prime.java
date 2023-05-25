@@ -7,21 +7,27 @@ public class task6prime {
                 (prime numbers are numbers that are greater than 1, divisible by only 1 and the number itself without leaving a remainder)
         */
 
+
         int[] numbers = {7, 14, 23, 36, 45, 52, 68, 75, 83, 99, 1, -7};
 
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] > 1) {
-                if (numbers[i] % 2 == 0 || numbers[i] % 3 == 0) {
-                    System.out.println(numbers[i] + " is NOT a prime number");
-                } else {
-                    System.out.print(numbers[i] + " is a prime number");
-                    System.out.println();
-                }
+        System.out.print("Prime numbers in the array: ");
+        for (int num : numbers) {
+            boolean isPrime = true;
+
+            if (num <= 1) {
+                isPrime = false;
             } else {
-                System.out.println(numbers[i] + " is NOT a prime number");
+                for (int i = 2; i < num; i++) {
+                    if (num % i == 0) {
+                        isPrime = false;
+                        break;
+                    }
+                }
+            }
+            if (isPrime) {
+                System.out.print(num + " ");
             }
         }
-
     }
 }
 
