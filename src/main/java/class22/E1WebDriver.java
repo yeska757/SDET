@@ -1,6 +1,6 @@
 package class22;
 
-public abstract class WebDriver {
+public abstract class E1WebDriver {
 
    abstract void openBrowser();
     abstract  void loadUrl(String url);
@@ -10,7 +10,7 @@ public abstract class WebDriver {
 
 
 }
-class ChromeDriver extends WebDriver{
+class ChromeDriver extends E1WebDriver {
 
     @Override
     void openBrowser() {

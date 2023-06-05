@@ -5,7 +5,7 @@ Create a WebDriver Interface that will have the following unimplemented behaviou
 openBrowser(), closeBrowser(), maximizeWindow(), findElement().
 Create 2 classes that implements WebDriver interface: ChromeDriver and FirefoxDriver.
 */
-public interface WebDriver {
+public interface E3WebDriver {
     void openBrowser();
 
     void closeBrowser();
@@ -16,7 +16,7 @@ public interface WebDriver {
 
 }
 
-class ChromeDriver implements WebDriver {
+class E3ChromeDriver implements E3WebDriver {
 
     @Override
     public void openBrowser() {
@@ -39,7 +39,7 @@ class ChromeDriver implements WebDriver {
     }
 }
 
-class FirefoxDriver implements WebDriver {
+class E3FirefoxDriver implements E3WebDriver {
 
     @Override
     public void openBrowser() {
