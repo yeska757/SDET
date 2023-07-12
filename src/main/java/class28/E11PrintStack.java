@@ -3,9 +3,9 @@ package class28;
 public class E11PrintStack {
     public static void main(String[] args) {
 
-        try{
-            System.out.println(10/0);
-        }catch (ArithmeticException e){
+        try {
+            System.out.println(10 / 0);
+        } catch (ArithmeticException e) {
 
             System.out.println(e);//java.lang.ArithmeticException: / by zero
 
@@ -16,9 +16,6 @@ public class E11PrintStack {
             System.out.println(e.getMessage());  /// by zero
         }
         System.out.println("1");
-
-
-
 
 
     }

@@ -15,8 +15,8 @@ public class E1Array {
 
     public static void main(String[] args) {
         E1Array arr = new E1Array();
-        int[]array = arr.createArray(5, 10);
-       //1) System.out.println(Arrays.toString(array));
+        int[] array = arr.createArray(5, 10);
+        //1) System.out.println(Arrays.toString(array));
        /*2) for (int i : array) {
             System.out.println(i);
         }*/

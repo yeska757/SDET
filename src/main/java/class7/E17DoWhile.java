@@ -15,18 +15,5 @@ public class E17DoWhile {
         } while (i > 10);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

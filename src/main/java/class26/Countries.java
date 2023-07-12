@@ -28,7 +28,7 @@ public class Countries {
             System.out.println(v);
         }
 
-      //for(Map.Entry<String,String>e:
+        //for(Map.Entry<String,String>e:
         for (var e : countries.entrySet()) {
             System.out.println(e.getKey() + " " + e.getValue());
         }

@@ -12,14 +12,5 @@ public class E3StringClassUpperCaseLowerCase {
         System.out.println(name2.toLowerCase());
 
 
-
-
-
-
-
-
-
-
-
     }
 }

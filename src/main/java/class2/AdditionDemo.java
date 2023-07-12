@@ -11,12 +11,9 @@ public class AdditionDemo {
 
         double dbNum1 = 12.5;
         double dbNum2 = 50.2;
-        double dbSum = dbNum1+dbNum2;
+        double dbSum = dbNum1 + dbNum2;
 
         System.out.println(dbSum);
-
-
-
 
 
     }

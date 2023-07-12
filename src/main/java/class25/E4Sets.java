@@ -14,8 +14,5 @@ public class E4Sets {
         System.out.println(fruit);
 
 
-
-
-
     }
 }

@@ -15,7 +15,7 @@ public class E2ArrayManipulator {
     int sumArray(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum=sum+arr[i];
+            sum = sum + arr[i];
         }
         return sum;
     }
@@ -23,11 +23,9 @@ public class E2ArrayManipulator {
     public static void main(String[] args) {
 
         E2ArrayManipulator sum = new E2ArrayManipulator();
-        int [] array = {8, 21, 19, 93, 69, 420};
+        int[] array = {8, 21, 19, 93, 69, 420};
         int result = sum.sumArray(array);
         System.out.println(result);
-
-
 
 
     }

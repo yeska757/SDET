@@ -7,13 +7,5 @@ public class E7StringClassTrim {
         System.out.println(sentence.trim());  //spaces before text and after been removed
 
 
-
-
-
-
-
-
-
-
     }
 }

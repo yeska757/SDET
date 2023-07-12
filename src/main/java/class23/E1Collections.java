@@ -20,6 +20,5 @@ public class E1Collections {
         System.out.println(arrayList);
 
 
-
     }
 }

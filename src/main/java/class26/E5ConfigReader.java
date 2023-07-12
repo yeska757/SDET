@@ -11,8 +11,5 @@ public class E5ConfigReader {
         System.out.println(ConfigReader.getProperty("URL"));
 
 
-
-
-
     }
 }

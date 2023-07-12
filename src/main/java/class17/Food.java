@@ -4,7 +4,7 @@ public class Food {
     String name = "Pasta";
 
 
-    void printFood(){
+    void printFood() {
         String name = "Burgers";
         //local var are preferred by java
         System.out.println(name); // "Burgers"

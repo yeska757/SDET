@@ -10,6 +10,6 @@ public class E12Throws {
     }
 
     static void print() throws FileNotFoundException {
-        FileInputStream fileInputStream=new FileInputStream("sdsd");
+        FileInputStream fileInputStream = new FileInputStream("sdsd");
     }
 }

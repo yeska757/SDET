@@ -11,6 +11,5 @@ public class Task3 {
         System.out.println(str1.length);
 
 
-
     }
 }

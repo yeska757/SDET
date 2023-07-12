@@ -15,8 +15,5 @@ public class E1ArrayList {
         System.out.println(integer1 * integer);
 
 
-
-
-
     }
 }

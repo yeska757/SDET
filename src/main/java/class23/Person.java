@@ -6,11 +6,12 @@ public interface Person {
 
 }
 
-interface Employee extends Person{
+interface Employee extends Person {
     void work();
 
 }
-class Tester implements Employee{
+
+class Tester implements Employee {
     @Override
     public void eat() {
         System.out.println("Tester don't eat");

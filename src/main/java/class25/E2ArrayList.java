@@ -15,7 +15,7 @@ public class E2ArrayList {
         headsets.add(headset2);
         headsets.add(headset3);
 
-         printList(headsets);   // gets headsets form overridden to
+        printList(headsets);   // gets headsets form overridden to
         //System.out.println(headsets);
 
 
@@ -49,7 +49,6 @@ class Headset {
     public String toString() {
         return title + " " + price + " " + noOfReviews;
     }
-
 
 
 }

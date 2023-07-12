@@ -45,7 +45,7 @@ public class Levels {
 static constructor not allowed*/
 
     public static void main(String[] args) {
-      //  Levels level0 = new Levels("Name", "345678", 1999, 1998);//static
+        //  Levels level0 = new Levels("Name", "345678", 1999, 1998);//static
         Levels level = new Levels("Name", "345678", 1999, 1998);//protected
         Levels level1 = new Levels("Name", "345678", 1999);//public
         Levels level2 = new Levels("Name", "345678");//default

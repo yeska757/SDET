@@ -13,12 +13,12 @@ public class E4Arrays2Denhanced {
 
         for (int[] arr1D : arr2D) {
             for (int num : arr1D) {
-                    System.out.print(num);
-                }
-
+                System.out.print(num);
             }
+
         }
-
-
     }
+
+
+}
 

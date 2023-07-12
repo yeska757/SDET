@@ -15,7 +15,7 @@ public class E4instanceANDlocalANDstatic {
 
     String name; //----> instance variable ->created outside any block of code (like method,loop) but inside of class
 
-   // static ---> can be accessed anywhere
+    // static ---> can be accessed anywhere
     static String year;
 
 

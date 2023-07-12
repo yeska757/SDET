@@ -8,8 +8,9 @@ public class Person {
    */
 
     String name;
+
     Person(String personName) {
-        name=personName;
+        name = personName;
         System.out.println("1 argument constructor");
     }
 

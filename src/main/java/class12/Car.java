@@ -13,19 +13,17 @@ public class Car {
     boolean isAWD;
 
 
-    void starts(){
+    void starts() {
         System.out.println("Wrrrrooooommmm......");
     }
 
-    void warning(){
+    void warning() {
         System.out.println("Beep....Beep...Beep...");
     }
 
-    void bluetooth(){
+    void bluetooth() {
         System.out.println("Connect your phone......");
     }
-
-
 
 
 }

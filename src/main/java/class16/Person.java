@@ -12,11 +12,11 @@ public class Person {
     private static double bankBalance = 12000;
 
 
-    private void printPassword(){
+    private void printPassword() {
         System.out.println(password);
     }
 
-    private static void printBalance(){   //only accessed in same class
+    private static void printBalance() {   //only accessed in same class
         System.out.println(bankBalance);
     }
 

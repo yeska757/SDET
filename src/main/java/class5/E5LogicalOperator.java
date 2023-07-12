@@ -11,9 +11,7 @@ public class E5LogicalOperator {
         System.out.println(flag);
 
         String name = "Semir";
-       // System.out.println(!name);     will not work if not boolean data type
-
-
+        // System.out.println(!name);     will not work if not boolean data type
 
 
     }

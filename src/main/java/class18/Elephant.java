@@ -1,6 +1,6 @@
 package class18;
 
-public class Elephant extends Animal{
+public class Elephant extends Animal {
 
 
     void voice() {

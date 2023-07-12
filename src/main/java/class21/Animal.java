@@ -52,8 +52,6 @@ class Cat extends Animal {
 }
 
 
-
-
 class Dog extends Animal {
 
     public Dog(String name, String color, String breed) {
@@ -75,13 +73,11 @@ class Dog extends Animal {
         System.out.println("Dogs sleep 8 hours");
     }
 
-    void run(){
+    void run() {
         System.out.println("Dog likes running");
     }
 
 }
-
-
 
 
 class Horse extends Animal {
@@ -105,7 +101,6 @@ class Horse extends Animal {
         System.out.println("Horse eat carrots and grass");
     }
 }
-
 
 
 class AnimalTester {

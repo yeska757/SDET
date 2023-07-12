@@ -2,21 +2,22 @@ package class18;
 
 public class Person {
     String name;
-    void sleep(){
+
+    void sleep() {
         System.out.println("ZZZZZzzzzZZzzZzZ");
     }
 }
 
-class Employee extends Person{
+class Employee extends Person {
 
 }
 
-class Tester extends Employee{
+class Tester extends Employee {
 
 }
 
 
-class PersonTester{
+class PersonTester {
     public static void main(String[] args) {
         Employee employee = new Employee();
         employee.sleep();

@@ -9,7 +9,7 @@ public abstract class Animal {
     private String color;
     private final String breed;
 
-    Animal(String name, String color, String breed){
+    Animal(String name, String color, String breed) {
         this.name = name;
         this.color = color;
         this.breed = breed;
@@ -21,7 +21,7 @@ public abstract class Animal {
 
     abstract void eat();
 
-    void printInfo(){
+    void printInfo() {
         System.out.println(name + " " + color + " " + breed);
     }
 

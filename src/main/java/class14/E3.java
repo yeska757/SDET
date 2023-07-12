@@ -12,8 +12,5 @@ public class E3 {
         int len = batch16name.length();
 
 
-
-
-
     }
 }

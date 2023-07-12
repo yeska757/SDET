@@ -24,6 +24,5 @@ public class E5Arrays2Dcounter {
         System.out.println("count = " + count);    //soutv
 
 
-
     }
 }

@@ -5,10 +5,12 @@ public class Cars {
     String model;
     String year;
     String color;
-    void starts(){
+
+    void starts() {
         System.out.println("Wrooooommmm");
     }
-    void horn(){
+
+    void horn() {
         System.out.println("Beep Beep Beep");
     }
 }

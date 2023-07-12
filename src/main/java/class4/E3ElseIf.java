@@ -18,7 +18,7 @@ public class E3ElseIf {
             System.out.println("Saturday");
         } else if (day == 7) {
             System.out.println("Sunday");
-        }else {
+        } else {
             System.out.println("Wrong day number!");
         }
 

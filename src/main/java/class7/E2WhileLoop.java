@@ -15,7 +15,5 @@ public class E2WhileLoop {
         System.out.println(num2);
 
 
-
-
     }
 }

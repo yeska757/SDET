@@ -16,7 +16,7 @@ import java.util.Map;
 public class Building {
     public static void main(String[] args) {
 
-        Map<Integer,String>building = new LinkedMap<>();
+        Map<Integer, String> building = new LinkedMap<>();
         building.put(1, "Google");
         building.put(2, "Syntax");
         building.put(3, "Best Buy");
@@ -28,12 +28,10 @@ public class Building {
 
         System.out.println(building);
         System.out.println(building.size());
-        building.replace(4,"Facebook");
+        building.replace(4, "Facebook");
         System.out.println(building);
         building.remove(7);
         System.out.println(building);
-
-
 
 
     }

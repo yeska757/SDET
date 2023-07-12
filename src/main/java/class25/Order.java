@@ -20,12 +20,8 @@ public class Order {
 
         System.out.println(city);
 
-        city.removeIf(a->a.startsWith("A"));
+        city.removeIf(a -> a.startsWith("A"));
         System.out.println(city);
-
-
-
-
 
 
     }

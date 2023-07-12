@@ -10,12 +10,15 @@ public interface Sellable {
     // final void sell();   ---> can't be final
     // static  void sell();   ---> can not be overridden
 
-   static void sell(){
-       System.out.println("Allowed");
-   };
+    static void sell() {
+        System.out.println("Allowed");
+    }
+
+    ;
 
 }
-class Tester1{
+
+class Tester1 {
     public static void main(String[] args) {
         Sellable.sell();  //--> can be called by interface name
     }

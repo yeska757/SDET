@@ -31,9 +31,5 @@ public class E3Arrays2D {
         }
 
 
-
-
-
-
     }
 }

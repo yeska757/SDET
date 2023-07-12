@@ -1,5 +1,5 @@
 package class18;
 
-public class Audi extends Cars{
+public class Audi extends Cars {
 
 }

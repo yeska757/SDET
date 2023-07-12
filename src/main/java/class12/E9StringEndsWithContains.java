@@ -9,8 +9,5 @@ public class E9StringEndsWithContains {
         System.out.println(sentence.contains("see"));
 
 
-
-
-
     }
 }

@@ -6,14 +6,11 @@ public class E2LogicalOperators {
         double marksInMath = 80;
         double marksInScience = 95;
 
-        if (marksInMath>90  && marksInScience>90){
+        if (marksInMath > 90 && marksInScience > 90) {
             System.out.println("You are a great student");
-        }else {
+        } else {
             System.out.println("You need to work harder");
         }
-
-
-
 
 
     }

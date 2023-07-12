@@ -3,7 +3,7 @@ package class17;
 public class DogTest {
     public static void main(String[] args) {
 
-        Dog dog1 = new Dog("Jack", "Black","persian", 12);
+        Dog dog1 = new Dog("Jack", "Black", "persian", 12);
         Dog dog2 = new Dog("Masha", "Orange", "poodle", 1);
         Dog dog3 = new Dog("Shaggy", "Brown", "german", 3);
         Dog dog4 = new Dog("Biscuit", "white", "american", 5);

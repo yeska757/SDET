@@ -7,9 +7,11 @@ public interface Moveable {
 
     void move();
 }
-interface Washable{
+
+interface Washable {
     void wash();
 }
+
 class Dog implements Moveable, Washable {
 
     @Override
@@ -30,7 +32,7 @@ class Cat implements Moveable {
     }
 }
 
-class Horse implements Moveable{
+class Horse implements Moveable {
     public void move() {
         System.out.println("Cats can also move");
     }

@@ -20,13 +20,4 @@ public class c14HW3isPrime {
     }
 
 
-
-
-
-
-
-
-
-
-
 }

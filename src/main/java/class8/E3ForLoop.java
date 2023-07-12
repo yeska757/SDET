@@ -16,10 +16,10 @@ public class E3ForLoop {
 
         //or
 
-        int summ=0;
-        for (int n = 1; n <=10; n++) {
-            if (n%2==0){
-                summ=summ+n;      //summ+=n;
+        int summ = 0;
+        for (int n = 1; n <= 10; n++) {
+            if (n % 2 == 0) {
+                summ = summ + n;      //summ+=n;
             }
         }
         System.out.println(summ);

@@ -8,7 +8,7 @@ public class task3EvenNumbers {
          */
 
         int[][] oddEven = {{3, 17, 99, 83, 59, 37, 584, 8462},
-                             {9824, 984, 50, 29, 99, 32, 3, 5, 8}};
+                {9824, 984, 50, 29, 99, 32, 3, 5, 8}};
 
         for (int[] numbers : oddEven) {
             for (int allNumbers : numbers) {

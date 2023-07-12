@@ -5,10 +5,10 @@ public class Cat {
     private String breed;
     private String color;
 
-    public void printInfo(String password){
-        if(password.equals("pass123")){
+    public void printInfo(String password) {
+        if (password.equals("pass123")) {
             System.out.println(name);
-        }else{
+        } else {
             System.out.println("You need password to access this info");
         }
 

@@ -13,15 +13,8 @@ public class E5StringvsStringBuilder {
         StringBuilder str2 = new StringBuilder(str1);
         System.out.println(str2);
         str2.reverse();
-        str1=str2.toString();
+        str1 = str2.toString();
         System.out.println(str1);
-
-
-
-
-
-
-
 
 
     }

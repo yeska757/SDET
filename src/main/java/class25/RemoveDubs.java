@@ -7,9 +7,9 @@ import java.util.List;
 public class RemoveDubs {
     public static void main(String[] args) {
 
-      //  How can you remove all duplicates from ArrayList?
+        //  How can you remove all duplicates from ArrayList?
 
-        List<String> aList=new ArrayList<>();
+        List<String> aList = new ArrayList<>();
         aList.add("John");
         aList.add("Jane");
         aList.add("James");
@@ -17,10 +17,8 @@ public class RemoveDubs {
         aList.add("Jane");
         aList.add("James");
 
-        LinkedHashSet<String> names=new LinkedHashSet<>(aList);
+        LinkedHashSet<String> names = new LinkedHashSet<>(aList);
         System.out.println(names);
-
-
 
 
     }

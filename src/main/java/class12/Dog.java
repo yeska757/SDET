@@ -16,22 +16,19 @@ public class Dog {
     boolean isFat;
 
 
-
     //void for    BEHAVIOR  /  ACTION  /  METHOD  /  FUNCTIONS
 
-    void eat(){
+    void eat() {
         System.out.println("Dog is eating........");
     }
 
-    void bark(){
+    void bark() {
         System.out.println("woof woof woof...........");
     }
 
-    void sleep(){
+    void sleep() {
         System.out.println("ZZZZzzzZzZzzzzzZ.......");
     }
-
-
 
 
 }

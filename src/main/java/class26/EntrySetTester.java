@@ -20,7 +20,7 @@ public class EntrySetTester {
             }
         }
 */
-        entrySet.removeIf(x->x.getKey().contains("i")&&x.getValue()>2);
+        entrySet.removeIf(x -> x.getKey().contains("i") && x.getValue() > 2);
         System.out.println(entrySet);
 
 

@@ -16,7 +16,6 @@ public abstract class Marks {
     double chem;
 
 
-
     Marks(double math, double eng, double chem) {
         this.math = math;
         this.eng = eng;

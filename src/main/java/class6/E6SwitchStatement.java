@@ -5,14 +5,14 @@ public class E6SwitchStatement {
 
         char gender = 'F';
 
-        switch (gender){     ////only works with int, String, short, byte
-            case'F':
+        switch (gender) {     ////only works with int, String, short, byte
+            case 'F':
                 System.out.println("Female");
                 break;
             case 'M':
                 System.out.println("Male");
                 break;
-            case'O':
+            case 'O':
                 System.out.println("Others");
                 break;
             default:

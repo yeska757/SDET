@@ -16,7 +16,7 @@ public class FaceBookExample {
         System.out.println(firstName + " " + surName);
         System.out.println(mobileNumber);
         System.out.println(password);
-        System.out.println(dayOfMonth +" "+ month +" "+ yearOfBirth);
+        System.out.println(dayOfMonth + " " + month + " " + yearOfBirth);
         System.out.println(gender);
 
     }

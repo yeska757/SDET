@@ -9,7 +9,7 @@ public class BankAccount {
 
     void withdraw(double amountToWithdraw) {
         if (amountToWithdraw > balance) {
-          throw new InsufficientBalance("Not possible insufficient balance");
+            throw new InsufficientBalance("Not possible insufficient balance");
         }
         balance = balance - amountToWithdraw;
     }

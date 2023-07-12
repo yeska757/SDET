@@ -42,7 +42,7 @@ public class HW6CountryLanguage {
                 country.equals("Mozambique") || country.equals("Guinea-Bissau") || country.equals("Timor-Leste") ||
                 country.equals("Equatorial Guinea") || country.equals("Cape Verde")) {
             System.out.println("The language in " + country + " is Portuguese.");
-        }else {
+        } else {
             System.out.println("I am not familiar with this country but I will learn in future.");
         }
 

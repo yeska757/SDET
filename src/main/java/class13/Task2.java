@@ -8,8 +8,5 @@ public class Task2 {
         System.out.println(str1.length());
 
 
-
-
-
     }
 }

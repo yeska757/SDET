@@ -24,7 +24,7 @@ public class HW8CalculatorIfStatements {
             System.out.println(num1 + "*" + num2 + "=" + (num1 * num2));
         } else if (operator == '/') {
             System.out.println(num1 + "/" + num2 + "=" + (num1 / num2));
-        }else {
+        } else {
             System.out.println("Wrong entry.");
         }
     }

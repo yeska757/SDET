@@ -1,6 +1,7 @@
 package class24;
 
 import java.util.ArrayList;
+
 /*Create an ArrayList that will store 5 names into it.
         Find out whether the given ArrayList is empty or not?
         Check whether the specific name is present in an ArrayList or not?
@@ -8,7 +9,7 @@ import java.util.ArrayList;
 public class E8ArrayListTask {
     public static void main(String[] args) {
 
-        ArrayList<String>names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("Yeska");
         names.add("Biscuit");
         names.add("Masha");
@@ -20,9 +21,6 @@ public class E8ArrayListTask {
         System.out.println(names.contains("Biscuit"));
         System.out.println(names.size());
         System.out.println(names);
-
-
-
 
 
     }

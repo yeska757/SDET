@@ -30,6 +30,4 @@ public class c14HW4Student {
     }
 
 
-
-
 }

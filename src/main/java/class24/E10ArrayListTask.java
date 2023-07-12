@@ -7,13 +7,13 @@ import java.util.Iterator;
 public class E10ArrayListTask {
     public static void main(String[] args) {
 
-        ArrayList<String>names = new ArrayList<>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("coke");
         names.add("cofee");
         names.add("water");
         names.add("juice");
 
-        Iterator<String>iterator = names.iterator();
+        Iterator<String> iterator = names.iterator();
 
        /* while(iterator.hasNext()){
             String word = iterator.next();
@@ -23,9 +23,6 @@ public class E10ArrayListTask {
         }*/
         names.removeIf(word -> word.endsWith("e"));
         System.out.println(names);
-
-
-
 
 
     }

@@ -17,7 +17,7 @@ public class VariableValues {
         areYouGoodSDET = true;
         char grade = 'B';
         grade = 'A';
-        int miAroundEquator= 24500;
+        int miAroundEquator = 24500;
         miAroundEquator = 24901;
 
         System.out.println(aptNo);
@@ -28,17 +28,6 @@ public class VariableValues {
         System.out.println(areYouGoodSDET);
         System.out.println(grade);
         System.out.println(miAroundEquator);
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

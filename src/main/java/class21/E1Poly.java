@@ -14,15 +14,14 @@ public class E1Poly {
         }
 
 
-
         Animal animal = new Dog("Masha", "orange", "poodle");
-       //we must type cast the animal back to dog to call the
+        //we must type cast the animal back to dog to call the
         //run method only exists in the Dog class
-        Dog d =(Dog)animal;
+        Dog d = (Dog) animal;
         d.run();
         //direct way
-        ((Dog)animal).run();
-       // int num = (int)10.5;
+        ((Dog) animal).run();
+        // int num = (int)10.5;
 
     }
 }

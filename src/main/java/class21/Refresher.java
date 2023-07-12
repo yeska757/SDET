@@ -15,9 +15,9 @@ public class Refresher {
         }
 
         Dog dog1 = new Dog("Lal", "Black", "Persian");
-        Dog[]dogs = {dog1, new Dog("Papi","White","chinise")};
+        Dog[] dogs = {dog1, new Dog("Papi", "White", "chinise")};
 
-        for (Dog dog:dogs){
+        for (Dog dog : dogs) {
             dog.printInfo();
         }
 

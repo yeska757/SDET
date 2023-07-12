@@ -11,10 +11,7 @@ public class E11ArrayList {
         var price = 12.4;
 
 // ArrayList<String> names = new ArrayList<>()
-                 var names = new ArrayList<>();
-
-
-
+        var names = new ArrayList<>();
 
 
     }

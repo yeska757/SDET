@@ -2,7 +2,7 @@ package class13;
 
 public class Printer {
 
-    void printSomething(){
+    void printSomething() {
         System.out.println("Hello Java");
         System.out.println("Hello Java");
         System.out.println("Hello Java");
@@ -10,7 +10,7 @@ public class Printer {
     }
 
 
-    void printWord(String word){
+    void printWord(String word) {
         System.out.println(word);
         System.out.println(word);
         System.out.println(word);
@@ -19,13 +19,11 @@ public class Printer {
     }
 
 
-    void printWordManyTimes(String word,int number){
+    void printWordManyTimes(String word, int number) {
         for (int i = 0; i < number; i++) {
             System.out.println(word);
         }
     }
-
-
 
 
 }

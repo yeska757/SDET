@@ -13,41 +13,29 @@ public class E12ArrayList {
         drinks.add("juice");
         drinks.add("tequilaSunrise");
 
-       for (int i = 0; i < drinks.size(); i++) {
+        for (int i = 0; i < drinks.size(); i++) {
             String word = drinks.get(i);
-            if(word.contains("e") || word.contains("a")){
+            if (word.contains("e") || word.contains("a")) {
                 drinks.set(i, "Water");
             }
         }
 
-       drinks.replaceAll(x-> {
-           if(x.contains("a") || x.contains("e")){
-               return "Water";
-           }else{
-               return x;
-           }
-       });
+        drinks.replaceAll(x -> {
+            if (x.contains("a") || x.contains("e")) {
+                return "Water";
+            } else {
+                return x;
+            }
+        });
 
-       drinks.replaceAll(x->x.contains("a") || x.contains("e")?"water":x);
-
-
+        drinks.replaceAll(x -> x.contains("a") || x.contains("e") ? "water" : x);
 
 
-
-       String word = 10>8?"Water":"milk";
-                  // if condition is tru--assign Water, if false--assign milk
-
+        String word = 10 > 8 ? "Water" : "milk";
+        // if condition is tru--assign Water, if false--assign milk
 
 
         System.out.println(drinks);
-
-
-
-
-
-
-
-
 
 
     }

@@ -20,9 +20,5 @@ public class E6ArrayList {
         System.out.println(grocery);
 
 
-
-
-
-
     }
 }

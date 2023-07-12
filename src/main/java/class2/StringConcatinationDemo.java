@@ -11,12 +11,5 @@ public class StringConcatinationDemo {
 //can use + to put more var in one line
 
 
-
-
-
-
-
-
-
     }
 }

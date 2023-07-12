@@ -6,15 +6,11 @@ public class E3LogicalOperators {
         boolean money = true;
         boolean inviteFromRR = false;
 
-        if (money && inviteFromRR){
+        if (money && inviteFromRR) {
             System.out.println("Yes you can buy RR");
-        }else{
+        } else {
             System.out.println("You can not buy RR");
         }
-
-
-
-
 
 
     }

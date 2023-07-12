@@ -18,16 +18,5 @@ public class E4Array2Dloop {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

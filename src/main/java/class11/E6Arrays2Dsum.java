@@ -16,14 +16,13 @@ public class E6Arrays2Dsum {
         int sum = 0;
         for (int[] arr1D : arr2D) {
             for (int num : arr1D) {
-                sum+=num;
+                sum += num;
 
-            }System.out.println(sum);
-            sum=0;
+            }
+            System.out.println(sum);
+            sum = 0;
         }
         System.out.println();
-
-
 
 
     }

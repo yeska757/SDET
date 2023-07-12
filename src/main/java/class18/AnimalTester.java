@@ -15,10 +15,5 @@ public class AnimalTester {
         cat.voice();
 
 
-
-
-
-
-
     }
 }

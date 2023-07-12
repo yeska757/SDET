@@ -15,7 +15,5 @@ public class E1ConfigReader {
         System.out.println(prop.contains("userName"));
 
 
-
-
     }
 }

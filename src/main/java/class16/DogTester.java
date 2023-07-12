@@ -15,6 +15,6 @@ public class DogTester {
         dog2.printInfo();
 
         Dog.age = 20;
-       // dog1.age = 30; //not the right way to do it--> dog1 has nothing to do with it
+        // dog1.age = 30; //not the right way to do it--> dog1 has nothing to do with it
     }
 }

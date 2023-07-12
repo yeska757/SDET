@@ -16,10 +16,10 @@ public class E6CollectionsFramework {
         fruit.add("Banana");
         fruit.add("Banana");
 
-        HashSet<String>hashSet = new HashSet<>(fruit);
+        HashSet<String> hashSet = new HashSet<>(fruit);
         System.out.println(hashSet);
 
-        LinkedList<String>linkedList = new LinkedList<>(hashSet);
+        LinkedList<String> linkedList = new LinkedList<>(hashSet);
         System.out.println(linkedList);
 
         TreeSet<String> treeSet = new TreeSet<>(fruit);

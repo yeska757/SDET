@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class E9ArrayListTask2 {
     public static void main(String[] args) {
 
-        ArrayList<String>words = new ArrayList<>();
+        ArrayList<String> words = new ArrayList<>();
         words.add("Apple");
         words.add("Cat");
         words.add("Car");
@@ -19,14 +19,12 @@ public class E9ArrayListTask2 {
 
         for (int i = 0; i < words.size(); i++) {
             String word = words.get(i);
-            if(word.endsWith("e")){
+            if (word.endsWith("e")) {
                 words.remove(i);
                 i--;
             }
         }
         System.out.println(words);
-
-
 
 
     }

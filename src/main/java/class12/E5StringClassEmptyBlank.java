@@ -8,12 +8,5 @@ public class E5StringClassEmptyBlank {
         System.out.println(name.isBlank()); //it checks spaces too
 
 
-
-
-
-
-
-
-
     }
 }

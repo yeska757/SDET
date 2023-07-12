@@ -7,8 +7,5 @@ public class PersonTest {
         Person task1 = new Person("JAVA");
 
 
-
-
-
     }
 }

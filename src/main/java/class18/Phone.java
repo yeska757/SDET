@@ -6,6 +6,6 @@ public class Phone {
 
 }
 
-class IPhone extends Phone{
+class IPhone extends Phone {
     //extended from Phone class to not repeat code
 }

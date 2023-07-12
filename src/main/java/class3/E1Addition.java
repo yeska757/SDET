@@ -5,9 +5,9 @@ public class E1Addition {
 
         int num1 = 10;
         int num2 = 5;
-        int sum = num1+num2;
+        int sum = num1 + num2;
         System.out.println(num1 + num2);
-        System.out.println(10+5);
+        System.out.println(10 + 5);
         System.out.println(sum);
 
 

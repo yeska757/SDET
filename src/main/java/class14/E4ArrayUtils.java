@@ -10,14 +10,8 @@ public class E4ArrayUtils {
     public static void main(String[] args) {
 
         E4ArrayUtils obj = new E4ArrayUtils();
-        int sum = obj.add(400,20);
+        int sum = obj.add(400, 20);
         System.out.println(sum);
-
-
-
-
-
-
 
 
     }

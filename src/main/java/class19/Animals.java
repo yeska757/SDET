@@ -2,9 +2,9 @@ package class19;
 
 public class Animals {
 
-   private String name;
+    private String name;
     String breed;
-   private int age;
+    private int age;
     String color;
     int noOfLegs;
 

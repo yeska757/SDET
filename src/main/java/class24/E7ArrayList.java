@@ -22,8 +22,5 @@ public class E7ArrayList {
         System.out.println(grocery);
 
 
-
-
-
     }
 }

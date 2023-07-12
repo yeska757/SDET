@@ -35,7 +35,7 @@ class Apple extends Computer {
 }
 
 class Lenovo extends Computer {
-     boolean fingerprintReader;
+    boolean fingerprintReader;
 
     public Lenovo(double price, int memory, String operatingSystem, boolean fingerprintReader) {
         super(price, memory, operatingSystem);
@@ -49,7 +49,7 @@ class Lenovo extends Computer {
 }
 
 class HP extends Computer {
-     String serialNumber;
+    String serialNumber;
 
     public HP(double price, int memory, String operatingSystem, String serialNumber) {
         super(price, memory, operatingSystem);
@@ -67,8 +67,8 @@ class HP extends Computer {
 }
 
 class Dell extends Computer {
-     boolean keyboardBacklight;
-     boolean wifiSupport;
+    boolean keyboardBacklight;
+    boolean wifiSupport;
 
     public Dell(double price, int memory, String operatingSystem, boolean keyboardBacklight, boolean wifiSupport) {
         super(price, memory, operatingSystem);

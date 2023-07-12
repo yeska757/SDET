@@ -7,8 +7,6 @@ public class StringDemo {
         String sentence = "You can put a long sentence here and it will print.";
 
 
-
-
         System.out.println(name);
         System.out.println(sentence);
     }

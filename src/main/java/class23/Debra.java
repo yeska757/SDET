@@ -1,7 +1,7 @@
 package class23;
 
 public class Debra {
-   private  String name;
+    private String name;
     private String breed;
     private String color;
     private int age;

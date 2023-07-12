@@ -21,12 +21,5 @@ public class E1Arrays {
         System.out.println(numbers[2]);
 
 
-
-
-
-
-
-
-
     }
 }

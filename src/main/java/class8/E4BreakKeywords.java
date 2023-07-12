@@ -5,22 +5,12 @@ public class E4BreakKeywords {
 
         int sum = 0;
         for (int i = 0; i < 50; i++) {
-            sum=sum+i;
-            if (sum>=300){
+            sum = sum + i;
+            if (sum >= 300) {
                 System.out.println(i);
                 break;          //will terminate the loop after 5
             }
         }
-
-
-
-
-
-
-
-
-
-
 
 
     }

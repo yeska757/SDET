@@ -7,17 +7,10 @@ public class E5ArrayList {
 
         int num = 10;
         int num1 = 20;
-        ArrayList<Integer>numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<>();
         numbers.add(num);
         numbers.add(num1);
         int number3 = numbers.get(0);
-
-
-
-
-
-
-
 
 
     }

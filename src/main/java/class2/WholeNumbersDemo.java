@@ -16,7 +16,6 @@ in type long ---> add L at the end of number
  */
 
 
-
         System.out.println(age);
         System.out.println(noOfApples);
         System.out.println(bankBalance);

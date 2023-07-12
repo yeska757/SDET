@@ -7,7 +7,7 @@ public class E7LO {
         char gen = 'F';
         String name = "Mary";
 
-        if (gen == 'F' || age > 60 || name!="Mary") {
+        if (gen == 'F' || age > 60 || name != "Mary") {
             System.out.println("You get a discount");
         }
     }

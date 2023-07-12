@@ -7,11 +7,5 @@ public class StudentTester {
         System.out.println(student);
 
 
-
-
-
-
-
-
     }
 }

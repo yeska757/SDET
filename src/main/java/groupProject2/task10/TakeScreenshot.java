@@ -1,7 +1,7 @@
 package groupProject2.task10;
 
-public interface TakeScreenshot{
+public interface TakeScreenshot {
 
-void getScreenshot();
+    void getScreenshot();
 
 }

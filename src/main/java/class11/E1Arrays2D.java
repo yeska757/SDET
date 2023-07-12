@@ -28,7 +28,7 @@ public class E1Arrays2D {
 
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[row].length; col++) {
-                if (arr[row][col]%2==1){
+                if (arr[row][col] % 2 == 1) {
                     System.out.print(arr[row][col]);
                 }
 

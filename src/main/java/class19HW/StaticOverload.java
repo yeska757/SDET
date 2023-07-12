@@ -19,8 +19,8 @@ public class StaticOverload {
     }
 
     public static void main(String[] args) {
-        System.out.println(calculateAvgGrade(98,87));
-        System.out.println(calculateAvgGrade(87,76,65));
-        System.out.println(calculateAvgGrade(65,54,43,99));
+        System.out.println(calculateAvgGrade(98, 87));
+        System.out.println(calculateAvgGrade(87, 76, 65));
+        System.out.println(calculateAvgGrade(65, 54, 43, 99));
     }
 }

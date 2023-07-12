@@ -19,7 +19,7 @@ public class BankAccount {
         }
 */
 
-    String getFirstName(){
+    String getFirstName() {
         return firstName;
     }
 

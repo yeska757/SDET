@@ -4,9 +4,10 @@ public class Furniture {
     String color = "Black";
 }
 
-class Chair extends Furniture{
+class Chair extends Furniture {
     String color = "White";
-    void printColor(){
+
+    void printColor() {
         String color = "blue";
         System.out.println(color);//takes local
         System.out.println(this.color);   //this.takes instance
@@ -15,7 +16,7 @@ class Chair extends Furniture{
     }
 }
 
-class FurnitureTester{
+class FurnitureTester {
     public static void main(String[] args) {
         Chair chair = new Chair();
         chair.printColor();

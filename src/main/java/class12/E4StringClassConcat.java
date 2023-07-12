@@ -11,15 +11,5 @@ public class E4StringClassConcat {
         System.out.println(firstName.concat(lastName));
 
 
-
-
-
-
-
-
-
-
-
-
     }
 }

@@ -10,28 +10,19 @@ public class DogTester {
         actualDog.breed = "German";
         actualDog.color = "Black";
         actualDog.weight = 50;
-         actualDog.bark();
+        actualDog.bark();
 
 
-
-         Dog mashaObj = new Dog();
-         mashaObj.name = "Masha";
-         mashaObj.age = 1;
-         mashaObj.breed = "Miniature Poodle";
-         mashaObj.color = "Peach";
-         mashaObj.weight = 20;
-         mashaObj.isFat = false;
-         mashaObj.bark();
-         mashaObj.eat();
-         mashaObj.sleep();
-
-
-
-
-
-
-
-
+        Dog mashaObj = new Dog();
+        mashaObj.name = "Masha";
+        mashaObj.age = 1;
+        mashaObj.breed = "Miniature Poodle";
+        mashaObj.color = "Peach";
+        mashaObj.weight = 20;
+        mashaObj.isFat = false;
+        mashaObj.bark();
+        mashaObj.eat();
+        mashaObj.sleep();
 
 
     }

@@ -8,7 +8,7 @@ public class E2Arrays2D {
         matrix[1][1] = 10;
         matrix[2][2] = 10;
 
-       // System.out.println(matrix[1][3]);  // error -->out of bound (max index is 2)
+        // System.out.println(matrix[1][3]);  // error -->out of bound (max index is 2)
         System.out.println(matrix[2][1]);
 
 

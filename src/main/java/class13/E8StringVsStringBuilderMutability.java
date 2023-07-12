@@ -5,7 +5,7 @@ public class E8StringVsStringBuilderMutability {
 
         String str = "1";
         for (int i = 0; i < 100; i++) {
-            str+=i;
+            str += i;
         }
 
 

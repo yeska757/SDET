@@ -6,18 +6,18 @@ public class E1LogicalOperators {
         boolean cho = true;
         boolean flo = false;
 
-        if (cho || flo){
+        if (cho || flo) {
             System.out.println("I am happy");
-        }else{
+        } else {
             System.out.println("I am sad");
         }
 
         boolean fiveG = false;
         boolean wifi = false;
 
-        if (wifi || fiveG){
+        if (wifi || fiveG) {
             System.out.println("You can browse the internet");
-        }else{
+        } else {
             System.out.println("Non connected to the internet");
         }
 

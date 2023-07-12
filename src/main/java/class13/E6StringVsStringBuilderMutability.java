@@ -13,8 +13,5 @@ public class E6StringVsStringBuilderMutability {
         System.out.println(str2);
 
 
-
-
-
     }
 }

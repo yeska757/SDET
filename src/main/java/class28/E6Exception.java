@@ -10,12 +10,10 @@ public class E6Exception {
         try {
             FileInputStream fileInputStream = new
                     FileInputStream("C:\\Users\\Yeska\\IdeaProjects\\SDET\\Files\\Emp.xlsx");
-        }catch(FileNotFoundException foundException){
+        } catch (FileNotFoundException foundException) {
             System.out.println("File is not found by the path you provided");
         }
         System.out.println("line 6");
-
-
 
 
     }

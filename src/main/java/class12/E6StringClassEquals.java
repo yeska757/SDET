@@ -11,15 +11,5 @@ public class E6StringClassEquals {
         System.out.println(!name.equalsIgnoreCase("JUSTIN"));  //false -- ignores case
 
 
-
-
-
-
-
-
-
-
-
-
     }
 }

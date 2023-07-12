@@ -14,16 +14,15 @@ public class E1Maps {
         drinks.put("Tea", 3.5);
 
 
-
-        Set<Map.Entry<String,Double>>entrySet = drinks.entrySet();
-        for (Map.Entry<String,Double>e: entrySet){
+        Set<Map.Entry<String, Double>> entrySet = drinks.entrySet();
+        for (Map.Entry<String, Double> e : entrySet) {
             System.out.println(e.getKey() + e.getValue());
         }
 
-        entrySet.removeIf(x->x.getKey().contains("i")&&x.getValue()>2);
+        entrySet.removeIf(x -> x.getKey().contains("i") && x.getValue() > 2);
 
 
-      // List<Map<String, Double>>mapList = new ArrayList<>();
+        // List<Map<String, Double>>mapList = new ArrayList<>();
 
 
 
@@ -33,10 +32,6 @@ public class E1Maps {
         drinks.values().removeIf(v->v>3.0);
         System.out.println(drinks);
 */
-
-
-
-
 
 
     }

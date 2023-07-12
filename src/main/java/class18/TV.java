@@ -1,17 +1,18 @@
 package class18;
 
 public class TV {
-  private  int size;
-   protected String make; // ---> protected allows only to child classes that extend TV class
+    private int size;
+    protected String make; // ---> protected allows only to child classes that extend TV class
     protected String model;
 
 }
-class SamsungTV extends TV{
+
+class SamsungTV extends TV {
 
 
 }
 
-class TVTester{
+class TVTester {
     public static void main(String[] args) {
         SamsungTV sm = new SamsungTV();
         sm.make = "Samsung";
